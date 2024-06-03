@@ -1,0 +1,156 @@
+html, body {
+    font-family: Montserrat, Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.map {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1429px;
+    height: 938px;
+    background: url("map.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.header {
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    background: #2c3e50;
+    color: #ecf0f1;
+    border-radius: 0 0 10px 10px;
+}
+
+.points {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.point-icon {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #ecf0f1;
+    border-radius: 15px;
+    border: #2c3e50 2px solid;
+    transition: 0.5s background-color;
+}
+
+.point-desc {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    background: #2c3e50;
+    color: #ecf0f1;
+    border-radius: 20px 0 0 0;
+    font-size: 12px;
+    display: none;
+    width: 775px;
+    height: 425px;
+    text-align: justify;
+}
+
+.point-icon:hover {
+    background: #e74c3c;
+}
+
+.point-icon:hover + .point-desc {
+    display: block;
+}
+
+#point1 {
+    left: 375px;
+    top: 595px;
+}
+
+#point2 {
+    left: 385px;
+    top: 505px;
+}
+
+#point3 {
+    left: 435px;
+    top: 440px;
+}
+
+#point4 {
+    left: 515px;
+    top: 515px;
+}
+
+#point5 {
+    left: 410px;
+    top: 825px;
+}
+
+#point6 {
+    left: 545px;
+    top: 555px;
+}
+
+#point7 {
+    left: 520px;
+    top: 445px;
+}
+
+#point8 {
+    left: 835px;
+    top: 420px;
+}
+
+#point9 {
+    left: 860px;
+    top: 230px;
+}
+
+#point10 {
+    left: 660px;
+    top: 285px;
+}
+
+#point11 {
+    left: 585px;
+    top: 160px;
+}
+
+#point12 {
+    left: 555px;
+    top: 295px;
+}
+
+#point13 {
+    left: 235px;
+    top: 225px;
+}
+
+#point14 {
+    left: 280px;
+    top: 85px;
+}
+
+#point15 {
+    left: 215px;
+    top: 480px;
+}
+
+#point1 + .point-desc img, #point2 + .point-desc img, #point3 + .point-desc img {
+    float: left;
+    margin-right: 10px;
+    width: 300px;
+    margin-top: 5px;
+}
