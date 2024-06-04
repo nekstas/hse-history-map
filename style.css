@@ -148,9 +148,8 @@ body {
     top: 480px;
 }
 
-#point1 + .point-desc img, #point2 + .point-desc img, #point3 + .point-desc img {
+.float-left {
     float: left;
-    margin-right: 10px;
-    width: 300px;
+    margin-right: 5px;
     margin-top: 5px;
 }
