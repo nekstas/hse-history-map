@@ -109,41 +109,36 @@ body {
 }
 
 #point8 {
-    left: 835px;
-    top: 420px;
-}
-
-#point9 {
     left: 860px;
     top: 230px;
 }
 
-#point10 {
+#point9 {
     left: 660px;
     top: 285px;
 }
 
-#point11 {
+#point10 {
     left: 585px;
     top: 160px;
 }
 
-#point12 {
+#point11 {
     left: 555px;
     top: 295px;
 }
 
-#point13 {
+#point12 {
     left: 235px;
     top: 225px;
 }
 
-#point14 {
+#point13 {
     left: 280px;
     top: 85px;
 }
 
-#point15 {
+#point14 {
     left: 215px;
     top: 480px;
 }
@@ -151,5 +146,11 @@ body {
 .float-left {
     float: left;
     margin-right: 5px;
+    margin-top: 5px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 5px;
     margin-top: 5px;
 }
