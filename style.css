@@ -1,3 +1,27 @@
+@media screen and (max-width: calc(1500px * 0.4)), screen and (max-height: calc(1000px * 0.4)) {
+    .size-error {
+        display: flex !important;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background: #e74c3c;
+        color: #ecf0f1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
+    }
+    .map {
+        display: none;
+    }
+}
+
+.size-error {
+    display: none;
+}
+
+
 html, body {
     font-family: Montserrat, Arial, sans-serif;
     margin: 0;
@@ -5,11 +29,7 @@ html, body {
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
+    padding: 10px;
 }
 
 .map {
@@ -155,4 +175,307 @@ body {
     float: right;
     margin-left: 5px;
     margin-top: 5px;
+}
+
+/* for map resizing, it needs JS, but without JS it is: */
+
+@media screen and (max-width: calc(1500px * 1.0)), screen and (max-height: calc(1000px * 1.0)) {
+    .map {
+        zoom: 0.99;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.99)), screen and (max-height: calc(1000px * 0.99)) {
+    .map {
+        zoom: 0.98;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.98)), screen and (max-height: calc(1000px * 0.98)) {
+    .map {
+        zoom: 0.97;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.97)), screen and (max-height: calc(1000px * 0.97)) {
+    .map {
+        zoom: 0.96;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.96)), screen and (max-height: calc(1000px * 0.96)) {
+    .map {
+        zoom: 0.95;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.95)), screen and (max-height: calc(1000px * 0.95)) {
+    .map {
+        zoom: 0.94;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.94)), screen and (max-height: calc(1000px * 0.94)) {
+    .map {
+        zoom: 0.93;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.93)), screen and (max-height: calc(1000px * 0.93)) {
+    .map {
+        zoom: 0.92;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.92)), screen and (max-height: calc(1000px * 0.92)) {
+    .map {
+        zoom: 0.91;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.91)), screen and (max-height: calc(1000px * 0.91)) {
+    .map {
+        zoom: 0.9;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.9)), screen and (max-height: calc(1000px * 0.9)) {
+    .map {
+        zoom: 0.89;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.89)), screen and (max-height: calc(1000px * 0.89)) {
+    .map {
+        zoom: 0.88;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.88)), screen and (max-height: calc(1000px * 0.88)) {
+    .map {
+        zoom: 0.87;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.87)), screen and (max-height: calc(1000px * 0.87)) {
+    .map {
+        zoom: 0.86;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.86)), screen and (max-height: calc(1000px * 0.86)) {
+    .map {
+        zoom: 0.85;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.85)), screen and (max-height: calc(1000px * 0.85)) {
+    .map {
+        zoom: 0.84;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.84)), screen and (max-height: calc(1000px * 0.84)) {
+    .map {
+        zoom: 0.83;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.83)), screen and (max-height: calc(1000px * 0.83)) {
+    .map {
+        zoom: 0.82;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.82)), screen and (max-height: calc(1000px * 0.82)) {
+    .map {
+        zoom: 0.81;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.81)), screen and (max-height: calc(1000px * 0.81)) {
+    .map {
+        zoom: 0.8;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.8)), screen and (max-height: calc(1000px * 0.8)) {
+    .map {
+        zoom: 0.79;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.79)), screen and (max-height: calc(1000px * 0.79)) {
+    .map {
+        zoom: 0.78;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.78)), screen and (max-height: calc(1000px * 0.78)) {
+    .map {
+        zoom: 0.77;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.77)), screen and (max-height: calc(1000px * 0.77)) {
+    .map {
+        zoom: 0.76;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.76)), screen and (max-height: calc(1000px * 0.76)) {
+    .map {
+        zoom: 0.75;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.75)), screen and (max-height: calc(1000px * 0.75)) {
+    .map {
+        zoom: 0.74;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.74)), screen and (max-height: calc(1000px * 0.74)) {
+    .map {
+        zoom: 0.73;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.73)), screen and (max-height: calc(1000px * 0.73)) {
+    .map {
+        zoom: 0.72;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.72)), screen and (max-height: calc(1000px * 0.72)) {
+    .map {
+        zoom: 0.71;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.71)), screen and (max-height: calc(1000px * 0.71)) {
+    .map {
+        zoom: 0.7;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.7)), screen and (max-height: calc(1000px * 0.7)) {
+    .map {
+        zoom: 0.69;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.69)), screen and (max-height: calc(1000px * 0.69)) {
+    .map {
+        zoom: 0.68;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.68)), screen and (max-height: calc(1000px * 0.68)) {
+    .map {
+        zoom: 0.67;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.67)), screen and (max-height: calc(1000px * 0.67)) {
+    .map {
+        zoom: 0.66;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.66)), screen and (max-height: calc(1000px * 0.66)) {
+    .map {
+        zoom: 0.65;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.65)), screen and (max-height: calc(1000px * 0.65)) {
+    .map {
+        zoom: 0.64;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.64)), screen and (max-height: calc(1000px * 0.64)) {
+    .map {
+        zoom: 0.63;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.63)), screen and (max-height: calc(1000px * 0.63)) {
+    .map {
+        zoom: 0.62;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.62)), screen and (max-height: calc(1000px * 0.62)) {
+    .map {
+        zoom: 0.61;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.61)), screen and (max-height: calc(1000px * 0.61)) {
+    .map {
+        zoom: 0.6;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.6)), screen and (max-height: calc(1000px * 0.6)) {
+    .map {
+        zoom: 0.59;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.59)), screen and (max-height: calc(1000px * 0.59)) {
+    .map {
+        zoom: 0.58;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.58)), screen and (max-height: calc(1000px * 0.58)) {
+    .map {
+        zoom: 0.57;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.57)), screen and (max-height: calc(1000px * 0.57)) {
+    .map {
+        zoom: 0.56;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.56)), screen and (max-height: calc(1000px * 0.56)) {
+    .map {
+        zoom: 0.55;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.55)), screen and (max-height: calc(1000px * 0.55)) {
+    .map {
+        zoom: 0.54;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.54)), screen and (max-height: calc(1000px * 0.54)) {
+    .map {
+        zoom: 0.53;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.53)), screen and (max-height: calc(1000px * 0.53)) {
+    .map {
+        zoom: 0.52;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.52)), screen and (max-height: calc(1000px * 0.52)) {
+    .map {
+        zoom: 0.51;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.51)), screen and (max-height: calc(1000px * 0.51)) {
+    .map {
+        zoom: 0.5;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.5)), screen and (max-height: calc(1000px * 0.5)) {
+    .map {
+        zoom: 0.49;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.49)), screen and (max-height: calc(1000px * 0.49)) {
+    .map {
+        zoom: 0.48;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.48)), screen and (max-height: calc(1000px * 0.48)) {
+    .map {
+        zoom: 0.47;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.47)), screen and (max-height: calc(1000px * 0.47)) {
+    .map {
+        zoom: 0.46;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.46)), screen and (max-height: calc(1000px * 0.46)) {
+    .map {
+        zoom: 0.45;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.45)), screen and (max-height: calc(1000px * 0.45)) {
+    .map {
+        zoom: 0.44;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.44)), screen and (max-height: calc(1000px * 0.44)) {
+    .map {
+        zoom: 0.43;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.43)), screen and (max-height: calc(1000px * 0.43)) {
+    .map {
+        zoom: 0.42;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.42)), screen and (max-height: calc(1000px * 0.42)) {
+    .map {
+        zoom: 0.41;
+    }
+}
+@media screen and (max-width: calc(1500px * 0.41)), screen and (max-height: calc(1000px * 0.41)) {
+    .map {
+        zoom: 0.4;
+    }
 }
